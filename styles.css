@@ -78,6 +78,108 @@ p{
   right: 30%;
 }
 
+/* js */
+#js{
+  background: #FFD5F0
+}
+.set {
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.ph1{
+  background-color: red;
+}
+
+.ph2{
+  background-color: yellow;
+}
+
+.ph3{
+  background-color: green;
+}
+
+
+.ph4{
+  background-color: blue;
+}
+
+.ph5{
+  background-color: darkblue;
+}
+
+.ph6{
+  background-color: purple;
+}
+
+.ph7{
+  background-color: white;
+}
+
+
+/* .container {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  max-width: 500px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0;
+} */
+
+.container{
+  padding: : 100px;
+}
+.target {
+  width: 33%;
+  display: inline-block;
+  font-size: 18px;
+  padding: 20;
+  margin: 20;
+  vertical-align: top;
+  height: 100%;
+}
+.target h5 {
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+.target .rect {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    background: #333;
+}
+
 /* feature section */
 #features{
   /* padding: 7% 15%; */
@@ -104,6 +206,8 @@ p{
   color: #ff4c68;
 
 }
+
+
 
 /* testimonial */
 
